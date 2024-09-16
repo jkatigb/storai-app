@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+langchain
+openai
+pinecone-client
+sentence-transformers
+celery
+redis
