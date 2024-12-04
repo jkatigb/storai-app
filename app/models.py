@@ -30,6 +30,7 @@ class SectionState(BaseModel):
     scenes: List[Scene]
 
 class StoryOutline(BaseModel):
+    previous_story: str = ""
     title: str
     setting: List[str]
     characters: List[str]
